@@ -44,6 +44,7 @@ export default function App() {
         </>
       )}
       <Footer />
+      <meta name="p:domain_verify" content="0ec22921c3681b364aae1b71a43004fe"/>
     </div>
   );
 }
