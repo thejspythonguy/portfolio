@@ -167,7 +167,17 @@ export const BLOGS = [
     tags: ["Career", "Full Stack", "Leadership"],
     excerpt: "Full-stack engineers are valuable, but expecting them to be experts in every layer is unrealistic. Specialists exist for a reason. This post explores the balance between depth and breadth in modern engineering teams.",
     url: "https://medium.com/@thejspythonguy/the-full-stack-paradox-jack-of-all-trades-master-of-none-94845e1064da",
-    readTime: "6 min read",
+    readTime: "3 min read",
+    color: "#1565c0",
+  },
+  ,
+  {
+    title: "From Signals to AI: How Angular Quietly Became Cool Again (v16 to v21)",
+    date: "May 3, 2026",
+    tags: ["Career", "Full Stack", "Leadership"],
+    excerpt: "I will be honest there was a stretch where Angular felt like it was losing the plot. While React is winning hearts with their simplicity and Claude (Claude AI responses are in react.), Angular was still making you set up NgModules just to sneeze. It felt heavy. Ceremonial. Like framework bureaucracy.",
+    url: "https://medium.com/@thejspythonguy/from-signals-to-ai-how-angular-quietly-became-cool-again-v16-to-v21-7a23733df734",
+    readTime: "4 min read",
     color: "#1565c0",
   },
 ];
