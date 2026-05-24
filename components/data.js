@@ -170,7 +170,6 @@ export const BLOGS = [
     readTime: "3 min read",
     color: "#1565c0",
   },
-  ,
   {
     title: "From Signals to AI: How Angular Quietly Became Cool Again (v16 to v21)",
     date: "May 3, 2026",
@@ -179,6 +178,15 @@ export const BLOGS = [
     url: "https://medium.com/@thejspythonguy/from-signals-to-ai-how-angular-quietly-became-cool-again-v16-to-v21-7a23733df734",
     readTime: "4 min read",
     color: "#1565c0",
+  },
+  {
+    title: "Mastering Angular Signal Effects: A Practical Guide with a Todo App",
+    date: "May 23, 2026",
+    tags: ["Angular", "Signals", "Effects"],
+    excerpt: "A practical walkthrough of Angular signal effects using a todo app, showing when effects are useful, how they react to state changes, and how to keep reactive logic clear in real-world Angular code.",
+    url: "https://medium.com/@thejspythonguy/mastering-angular-signal-effects-a-practical-guide-with-a-todo-app-0734038350f8?postPublishedType=initial",
+    readTime: "5 min read",
+    color: "#e65c00",
   },
 ];
 
