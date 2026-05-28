@@ -3,7 +3,7 @@ import { scrollTo } from "./utils";
 
 const CONTACTS = [
   { icon: "📧", label: "thejspythonguy@gmail.com", href: "mailto:thejspythonguy@gmail.com" },
-  { icon: "📞", label: "+1-904-217-5437", href: "tel:+19042175437" },
+  { icon: "📞", label: "+1-904-566-3331", href: "tel:+19045663331" },
   { icon: "📍", label: "Jacksonville, FL, USA", href: null },
   { icon: "🐦", label: "@thejspythonguy", href: "https://twitter.com/thejspythonguy" },
   { icon: "🔗", label: "LinkedIn", href: "https://www.linkedin.com/in/thejspythonguy/" },
