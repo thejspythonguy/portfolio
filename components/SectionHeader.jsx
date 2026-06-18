@@ -1,13 +1,15 @@
 export default function SectionHeader({ tag, title }) {
   return (
-    <div style={{ marginBottom: 40 }}>
-      <p style={{ fontFamily: "'Outfit', sans-serif", fontSize: 11, color: "#f5b042", letterSpacing: 3.5, textTransform: "uppercase", fontWeight: 700, marginBottom: 10 }}>
+    <div className="mb-10 max-w-3xl text-left">
+      <span className="font-display text-xs tracking-widest uppercase font-black text-accent-purple mb-2.5 block">
         {tag}
-      </p>
-      <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: "clamp(1.8rem, 4vw, 2.6rem)", fontWeight: 800, color: "#0a1c30", position: "relative", display: "inline-block" }}>
-        {title}
-        <span style={{ position: "absolute", bottom: -10, left: 0, width: 56, height: 4, background: "#f5b042", borderRadius: 4 }} />
-      </h2>
+      </span>
+      <div className="flex items-center gap-5 flex-wrap">
+        <h2 className="font-display text-2xl sm:text-3xl md:text-4xl font-black text-foreground leading-none">
+          {title}
+        </h2>
+        <span className="flex-1 min-w-[80px] h-0.5 bg-gradient-to-r from-accent-purple/60 to-accent-pink/5 rounded-full" />
+      </div>
     </div>
   );
 }
